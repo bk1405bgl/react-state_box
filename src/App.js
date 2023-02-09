@@ -10,6 +10,7 @@ export default function App() {
     setIsActive(!isActive);
     isActive = !isActive;
     // Check that the value changes correctly.
+    console.log(isActive);
   }
 
   return (
